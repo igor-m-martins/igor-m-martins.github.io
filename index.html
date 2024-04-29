@@ -3,8 +3,6 @@
   <head>
     <meta content="width=device-width, initial-scale=1" name="viewport" />
 
-    <!---------------------------Fonts used in this App------------------------------------------------------>
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -12,15 +10,12 @@
       rel="stylesheet"
     />
 
-    <!-----------------------------JS text.js extension ---------------------------------------------->
-
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"
       integrity="sha512-BdHyGtczsUoFcEma+MfXc71KJLv/cd+sUsUaYYf2mXpfG/PtBjNXsPo78+rxWjscxUYN2Qr2+DbeGGiJx81ifg=="
       crossorigin="anonymous"
     ></script>
 
-    <!--------------------------------Style Files ------------------------------------------>
     <link
       rel="stylesheet"
       href="./Assets/CSS/bootstrap.min.css"
@@ -29,11 +24,8 @@
     <link rel="stylesheet" href="./Assets/CSS/all.min.css" type="text/css" />
     <link rel="stylesheet" href="./Assets/CSS/style.css" type="text/css" />
 
-    <!------------------------------WebSite Title ------------------------------------------>
-
     <title>Igor Martins | Portfolio </title>
 
-    <!-------------------------------Browser logo------------------------------------------->
     <link
       rel="icon"
       type="image/png"
@@ -43,7 +35,6 @@
   </head>
 
   <body data-bs-spy="scroll" data-bs-target="#navbar-scrollSpy">
-    <!-- navbar -->
 
     <nav id="navbar-scrollSpy"
       class="navbar navbar-expand-md navbar-dark my-auto p-2 fixed-top"
@@ -99,7 +90,6 @@
       </div>
     </nav>
 
-    <!-- Home -->
     <header id="home">
       <div class="home__container">
         <div class="home__bgLayer">
@@ -113,8 +103,7 @@
       </div>
     </header>
 
-    <!-- about -->
-    <section id="about" class="">
+    <section id="about">
       <div class="about__container container d-flex px-md-5 py-5">
         <div class="row">
           <div class="col-md-6 px-3">
@@ -128,6 +117,9 @@
                   />
                 </div>
               </div>
+              
+            </div>
+            
               <div class="col-md-3 aboutD__list">
                 <div>
                   <p class="item__list mb-3"><b>Name:</b> Igor Machado Martins</p>
@@ -135,72 +127,14 @@
                     <b>Profile:</b> Cybersecurity Professional, Entrepreneur
                   </p>
                   <p class="item__list mb-3">
-                    <b>Email:</b> igor.machado.martins@protonmail.com
+                    <b>Email:</b><a href="mailto:igor.machado.martins@protonmail.com"> igor.machado.martins@protonmail.com</a>
                   </p>
-                  <p class="item__list mb-3"><b>Phone:</b> (+598) 98 177 367</p>
+                  <p class="item__list mb-3"><b>Phone:</b><a href="https://wa.me/5551997806982"> (+55) 51997806982</a></p>
                 </div>
               </div>
-            </div>
-            
-            <div class="skills__container">
-              <!--
-              <p class="aboutTitle__sub mb-3"><b>Skill</b></p>
-              <p class="progress__data m-0">
-                Web Vuln <span class="progress__pers float-end">85%</span>
-              </p>
-              <div class="progress mb-3 mt-1">
-                <div
-                  class="progress-bar"
-                  role="progressbar"
-                  style="width: 85%"
-                  aria-valuenow="25"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
-              </div>
-              <p class="progress__data m-0">
-                OSINT <span class="progress__pers float-end">76%</span>
-              </p>
-              <div class="progress mb-3 mt-1">
-                <div
-                  class="progress-bar"
-                  role="progressbar"
-                  style="width: 76%"
-                  aria-valuenow="25"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
-              </div>
-              <p class="progress__data m-0">
-                Reverse Engineering Software <span class="progress__pers float-end">55%</span>
-              </p>
-              <div class="progress mb-3 mt-1">
-                <div
-                  class="progress-bar"
-                  role="progressbar"
-                  style="width: 55%"
-                  aria-valuenow="55"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
-              </div>
-              <p class="progress__data m-0">
-                Python<span class="progress__pers float-end">90%</span>
-              </p>
-              <div class="progress mb-3 mt-1">
-                <div
-                  class="progress-bar"
-                  role="progressbar"
-                  style="width: 90%"
-                  aria-valuenow="25"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
-              </div>
-            </div>
-           -->
+              
           </div>
-          <div class="col-11 mx-auto col-md-6 pt-4 pt-md-0 about__data">
+          <div class="col-11 mx-auto col-md-5 pt-4 pt-md-0 about__data">
             <h5 class="linedTitle__sub mb-4">About me</h5>
             <p class="about__desc mb-3">  
               Enthusiastic about information security and passionate about technology, I volunteered in the Trace Labs program to locate missing persons using OSINT techniques. I am certified by Desec Security in Professional Pentest.
@@ -631,6 +565,7 @@
                   </p>
                 </div>
               </div>
+              <!--
               <div class="carousel-item slide__item">
                 <img
                   src="./Assets/img/intro-bg.jpg"
@@ -645,7 +580,7 @@
                   />
                   <h2 class="text-capitalize py-2 py-md-3">NGO Brasil</h2>
                   <p class="review__text mx-auto text-center">
-                    Igor is a perfectionist, a person with initiative and who knows how to think outside the box.
+                    ...
                   </p>
                   <p
                     class="test__icon border-1 border border-white bg-white text-primary rounded rounded-circle py-2 px-2 mx-auto"
@@ -654,6 +589,7 @@
                   </p>
                 </div>
               </div>
+              -->
             </div>
             <button
               class="carousel-control-prev"
@@ -684,9 +620,7 @@
       </div>
     </section>
 
-    <!-- Modal itself -->
 
-    <!-- Modal-1 -->
     <div
       class="modal fade"
       id="work1"
@@ -878,9 +812,6 @@
       </div>
     </div>
 
-    <!-- ** -->
-
-    <!-- Blog -->
     <section id="blog">
       <h3 class="services__title mb-2 text-center">Blog</h3>
       <p class="services__sub mb-3 text-center">
@@ -1072,7 +1003,7 @@
               <div class="contact__address col-md-6 mx-auto px-md-3">
                 <h5 class="linedTitle__sub mb-4">Get in Touch</h5>
                 <p class="address__text mb-3">
-                  ...
+                  <iframe width="100%" height="300" src="https://www.openstreetmap.org/export/embed.html?bbox=-52.47928619384766%2C-29.759683298234364%2C-52.3659896850586%2C-29.691333516997574&amp;layer=mapnik&amp;marker=-29.725514227076292%2C-52.422637939453125" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=-29.7255&amp;mlon=-52.4226#map=14/-29.7255/-52.4226">Ver Mapa</a></small>
                 </p>
                 <ul class="address__info p-0">
                   <li>
@@ -1084,12 +1015,12 @@
                     <span class="address__icon pe-2"
                       ><i class="fa-solid fa-phone"></i
                     ></span>
-                    (+598) 98 177 367
+                    <a href="https://wa.me/5551997806982">(+55) 51997806982</a>
                   </li>
                   <li>
                     <span class="address__icon pe-2"
                       ><i class="fa-solid fa-envelope"></i></span
-                    >igor.machado.martins@protonmail.com
+                    ><a href="mailto:igor.machado.martins@protonmail.com">igor.machado.martins@protonmail.com</a>
                   </li>
                 </ul>
                 <div class="py-4">
@@ -1103,13 +1034,11 @@
               </div>
             </div>
           </div>
-
-          <!-- footer -->
         </div>
       </div>
     </section>
 
-    <!-------------------------- JS text.js extension script ----------------------->
+
     <script>
       var typing = new Typed(".home__desc", {
         strings: [
