@@ -82,6 +82,7 @@ html {
   border-right: 2px solid #fff;
   width: fit-content;
   pointer-events: none;
+  color: darkgray;
 }
 
 /*************************************************************************************************/
