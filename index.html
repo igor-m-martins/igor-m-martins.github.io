@@ -28,8 +28,13 @@
       a {
         color: aliceblue;
         text-decoration: none;
+      #google_translate_element {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        z-index: 1000;
       }
-    </style>
+      </style>
 
     <title>Igor Martins | Portfolio </title>
 
@@ -40,6 +45,18 @@
       href="./Assets/img/me.jpg"
     />
   </head>
+  
+  <div id="google_translate_element"></div>
+  <script type="text/javascript">
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement({
+          pageLanguage: 'en',
+          includedLanguages: 'en,pt,es',
+          layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+        }, 'google_translate_element');
+      }
+  </script>
+  <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
     <header id="home">
       <div class="home__container">
