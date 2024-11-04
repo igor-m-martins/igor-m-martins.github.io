@@ -29,12 +29,6 @@
         color: aliceblue;
         text-decoration: none;
       }
-      #google_translate_element {
-        position: absolute;
-        top: 10px;
-        right: 10px;
-        z-index: 1000;
-      }
       </style>
 
     <title>Igor Martins | Portfolio </title>
@@ -46,8 +40,6 @@
       href="./Assets/img/me.jpg"
     />
   </head>
-  
-  <div id="google_translate_element" style="background-color: black;"></div>
   
     <header id="home">
       <div class="home__container">
@@ -996,9 +988,9 @@
     </section>
 
 
-<script>
-  function startTypingEffect() {
-    return new Typed(".home__desc", {
+    <script>
+    function startTypingEffect() {
+      return new Typed(".home__desc", {
       strings: [
         "Entrepreneur",
         "Programmer",
@@ -1008,35 +1000,10 @@
       typeSpeed: 100,
       backSpeed: 40,
       loop: true,
-    });
-  }
-  var typing = startTypingEffect();
-  
-  function checkForTranslation() {
-    var translateElement = document.querySelector(".goog-te-combo");
-    if (translateElement && translateElement.value !== 'en') {
-      if (typing) {
-        typing.destroy();
-      }
-      typing = startTypingEffect();
+      });
     }
-  }
-
-  setInterval(checkForTranslation, 2000);
-  </script>
-  
-  <script type="text/javascript">
-      function googleTranslateElementInit() {
-        new google.translate.TranslateElement({
-          pageLanguage: 'en',
-          includedLanguages: 'en,pt,es',
-          layout: google.translate.TranslateElement.InlineLayout.SIMPLE
-        }, 'google_translate_element');
-      }
-  </script>
-  <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
-
-  <script src="./Assets/JS/bootstrap.bundle.min.js"></script>
+    var typing = startTypingEffect();
+    </script>
+    <script src="./Assets/JS/bootstrap.bundle.min.js"></script>
   </body>
 </html>
