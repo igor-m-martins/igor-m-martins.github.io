@@ -127,6 +127,7 @@ html {
 .about__img img {
   border-radius: 0.25rem;
   margin-left: 10px;
+  width: inherit;
 }
 
 .item__list > b {
