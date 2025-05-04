@@ -29,7 +29,32 @@
         color: aliceblue;
         text-decoration: none;
       }
-      </style>
+      .navbar {
+        background-color: #000;
+        display: flex;
+        justify-content: flex-end;
+        padding: 16px 14px;
+        gap: 20px;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        right: 0;
+        z-index: 1000;
+      }
+
+      .navbar a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        font-family: Arial, sans-serif;
+        transition: color 0.3s ease;
+      }
+
+      .navbar a:hover {
+        color: #00bfff; /* Azul claro no hover */
+      }
+
+    </style>
 
     <title>Igor Martins | Portfolio </title>
 
@@ -40,8 +65,14 @@
       href="./Assets/img/me.jpg"
     />
   </head>
-  
     <header id="home">
+      <nav class="navbar">
+      <a href="#about">About me</a>
+      <a href="#services">Services</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#blog">Blog</a>
+      <a href="#contact">Contact</a>
+      </nav>
       <div class="home__container">
         <div class="home__bgLayer">
           <div
@@ -97,10 +128,9 @@
               Enthusiastic about information security and passionate about technology, I volunteered in the <a href="https://www.tracelabs.org/about/what-we-do" style="color: royalblue;" target="_blank">Trace Labs</a> program to locate missing persons using OSINT techniques. I am certified by <a href="https://desecsecurity.com/valida-certificado/TLPR-OODQT-THJK" style="color: royalblue;" target="_blank">Desec Security in Professional Pentest</a>.
             </p>
             <p class="about__desc mb-3">
-              In my previous role as a tracking analyst, I monitored cargo vehicles to prevent theft, a position that demanded a high level of attention and discipline.
+              After moving to Montevideo, I started working in the financial market, selling stocks. At the same time, I have continued offering programming services as a freelancer.
             </p>
             <p class="about__desc mb-3">
-              I am currently working on my startup project called Elite Worldwide, where I help small and medium businesses access more technological resources, thus making them more competitive in the market.
             </p>
           </div>
         </div>
@@ -276,41 +306,6 @@
     <div class="row row-cols-1 row-cols-md-3 g-4">
 
       <!-- Card 1 -->
-      <div class="col">
-        <div class="card h-100">
-          <div class="zoomify">
-            <img
-              src="./Assets/img/work-3.jpg"
-              class="card-img-top"
-              alt="work-3 image"
-              style="object-fit: cover; height: 200px;" />
-          </div>
-
-          <div class="card-body">
-            <div class="card__data mt-3 mb-1">
-              <div class="row row-cols-2">
-                <div class="col w-75">
-                  <h5 class="card-title">
-                    <a href="https://eliteworldwidecompany.github.io/" style="color: royalblue;" target="_blank">Elite Worldwide Co.</a>
-                  </h5>
-                  <p class="card-text">
-                    <span class="text-capitalize text-primary">Startup</span> / 20 Dec. 2022
-                  </p>
-                </div>
-                <div class="col w-25 align-self-center justify-content-end">
-                  <button
-                    type="button"
-                    class="btn btn-outline-primary modal__btn"
-                    data-bs-toggle="modal"
-                    data-bs-target="#work3">
-                    <i class="fa-solid fa-plus fa-md"></i>
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
 
       <!-- Card 2 -->
       <div class="col">
@@ -387,39 +382,7 @@
     <div class="row row-cols-1 row-cols-md-3 g-4 mt-1 mt-md-3">
 
       <!-- Card 4 -->
-      <div class="col">
-        <div class="card h-100">
-          <div class="zoomify">
-            <img
-              src="./Assets/img/work-5.jpg"
-              class="card-img-top"
-              alt="work-2 image"
-              style="object-fit: cover; height: 200px;" />
-          </div>
-
-          <div class="card-body">
-            <div class="card__data mt-3 mb-1">
-              <div class="row row-cols-2">
-                <div class="col w-75">
-                  <h5 class="card-title">Bohemian - Montevideo</h5>
-                  <p class="card-text">
-                    <span class="text-capitalize text-primary">IT Support Services</span> / 13 Dec. 2024
-                  </p>
-                </div>
-                <div class="col w-25 align-self-center justify-content-end">
-                  <button
-                    type="button"
-                    class="btn btn-outline-primary modal__btn"
-                    data-bs-toggle="modal"
-                    data-bs-target="#work5">
-                    <i class="fa-solid fa-plus fa-md"></i>
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      
 
     </div>
   </div>
@@ -699,6 +662,7 @@
           </div>
           <div class="modal-footer p-0">
             <p class="text-muted">Image 2 of 6</p>
+            <p>Discovered a vulnerability in the login page of a government system. The issue was responsibly disclosed to the appropriate security team and promptly fixed.</p>
           </div>
         </div>
       </div>
@@ -762,7 +726,8 @@
             />
           </div>
           <div class="modal-footer p-0">
-            <p class="text-muted">Image 4 of 6</p>
+            <p class="text-muted">Image 3 of 6</p>
+            <p>Informative dashboard developed for a risk management company, aimed at providing real-time visibility into operational issues and travel delays, contributing to the safety and efficiency of operations.</p>
           </div>
         </div>
       </div>
