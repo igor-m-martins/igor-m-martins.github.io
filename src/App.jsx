@@ -218,16 +218,7 @@ export default function App() {
             <img src="/me.jpg" alt="Igor Martins" className="w-28 h-28 rounded-full object-cover border-4 border-gray-600 mx-auto mb-4"/>
             <h2 className="mb-2 text-xl font-bold">About me</h2>
             <p className="leading-relaxed text-sm sm:text-base">
-              Passionate about technology and cybersecurity, I actively
-              participated in the Trace Labs program, where I applied OSINT
-              techniques to help locate missing persons.
-              <br/>
-              <br/>
-              I hold a Professional Pentest certification from Desec Security
-              and am currently pursuing a Bachelor’s degree in Computer
-              Engineering at UDELAR (Universidad de la República). In parallel,
-              I offer freelance programming services, developing secure and
-              efficient digital solutions.
+              I am a Computer Engineering student at UDELAR (Universidad de la República) with a strong passion for technology and cybersecurity. I actively participated in the Trace Labs program, where I applied OSINT (Open Source Intelligence) techniques to help locate missing persons.<br></br>I hold a Professional Pentest certification from Desec Security and work as a freelance programmer, developing secure and efficient digital solutions.
             </p>
             <div className="mt-4 flex flex-wrap justify-center gap-6 text-xs sm:text-sm">
               <div className="flex items-center space-x-2">
