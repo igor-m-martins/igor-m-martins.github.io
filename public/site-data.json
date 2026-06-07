@@ -1,0 +1,127 @@
+{
+  "header": {
+    "name": "Igor Martins",
+    "backgroundImage": "img/banner.jpg"
+  },
+  "typingEffect": {
+    "texts": [
+      "Freelance Developer",
+      "Security Specialist",
+      "Automation Expert",
+      "CTF Player"
+    ],
+    "speed": 150,
+    "delay": 1500
+  },
+  "navLinks": [
+    {
+      "label": "About",
+      "href": "#about"
+    },
+    {
+      "label": "Services",
+      "href": "#services"
+    },
+    {
+      "label": "Portfolio",
+      "href": "#portfolio"
+    },
+    {
+      "label": "Posts",
+      "href": "#posts"
+    }
+  ],
+  "socialLinks": [
+    {
+      "name": "Instagram",
+      "href": "https://instagram.com/igor.m.martins",
+      "icon": "Instagram"
+    },
+    {
+      "name": "LinkedIn",
+      "href": "https://www.linkedin.com/in/igor-m-705a50192/",
+      "icon": "LinkedIn"
+    },
+    {
+      "name": "GitHub",
+      "href": "https://github.com/igor-m-martins",
+      "icon": "GitHub"
+    }
+  ],
+  "about": {
+    "title": "About me",
+    "description": "I am a Computer Engineering student at UDELAR (Universidad de la República) with a strong passion for technology and cybersecurity. I actively participated in the Trace Labs program, where I applied OSINT techniques to help locate missing persons. I hold a Professional Pentest certification from Desec Security and work as a freelance programmer, developing secure and efficient digital solutions.",
+    "image": "img/perfil.png",
+    "phone": "+598 95 343 497",
+    "email": "igor.machado@fing.edu.uy"
+  },
+  "services": [
+    {
+      "title": "Web Development",
+      "description": "Development of modern, responsive, and fast websites. I also fix bugs and optimize existing pages.",
+      "icon": "🖥️"
+    },
+    {
+      "title": "Cybersecurity",
+      "description": "Identification and analysis of security vulnerabilities in websites and systems.",
+      "icon": "🔒"
+    },
+    {
+      "title": "Scripts and Automation",
+      "description": "Automation of tasks using custom scripts and helpful bots.",
+      "icon": "⚙️"
+    }
+  ],
+  "portfolio": [
+    {
+      "title": "MiQueja",
+      "description": "A startup connecting consumers and companies in Uruguay via public feedback to drive transparency and build trust.",
+      "link": "https://miqueja.vercel.app/about",
+      "image": "portfolio/miqueja.png"
+    },
+    {
+      "title": "Risk Management Dashboard",
+      "description": "Informative dashboard developed for a risk management company, aimed at providing real-time visibility into operational issues and travel delays.",
+      "link": "https://igor-m-martins.github.io/portfolio/rmd.jpg",
+      "image": "portfolio/rmd.jpg"
+    },
+    {
+      "title": "Detran RS | Vulnerability",
+      "description": "Discovered a vulnerability in the login page of a government system. The issue was responsibly disclosed to the appropriate security team and promptly fixed.",
+      "link": "https://r4msolo.medium.com/a-falha-do-detran-rs-xss-pt-br-en-us-a3e06abd7a0b",
+      "image": "portfolio/detran.jpg"
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Luxtel Internet",
+      "text": "Igor arrived recently, but he has already shown that he is very dedicated to his work that makes. There are those who say that he is also very curious, as he always goes in addition to developing your professional knowledge",
+      "image": "testimonials/testimonial-1.jpg"
+    },
+    {
+      "name": "My-Anh Wu",
+      "text": "It´s very pleasure to meet you and know you today Igor! You did a very good job to your best knowledge and information they´d provided you. You´re a good, polite and gentle young man that caught my attention and respect for you!",
+      "image": "testimonials/testimonial-2.jpg"
+    }
+  ],
+  "posts": [
+    {
+      "title": "Detran RS | Vulnerability",
+      "link": "https://r4msolo.medium.com/a-falha-do-detran-rs-xss-pt-br-en-us-a3e06abd7a0b"
+    }
+  ],
+  "footerLinks": [
+    {
+      "name": "Instagram",
+      "href": "https://instagram.com/igor.m.martins"
+    },
+    {
+      "name": "LinkedIn",
+      "href": "https://www.linkedin.com/in/igor-m-705a50192/"
+    },
+    {
+      "name": "GitHub",
+      "href": "https://github.com/igor-m-martins"
+    }
+  ]
+}
