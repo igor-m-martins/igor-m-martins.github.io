@@ -5,10 +5,9 @@
   },
   "typingEffect": {
     "texts": [
+      "Indie Hacker & Tech Founder",
       "Freelance Developer",
-      "Security Specialist",
-      "Automation Expert",
-      "CTF Player"
+      "Security Researcher",
     ],
     "speed": 150,
     "delay": 1500
