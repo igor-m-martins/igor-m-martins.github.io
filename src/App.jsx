@@ -363,18 +363,20 @@ export default function App() {
       </main>
 
       <footer className="bg-gray-800 p-6 text-center space-x-6 text-sm sm:text-base">
-        {footerLinks.map((item, idx) => (
-          <a
-            key={idx}
-            href={item.href}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-blue-400"
-            aria-label={item.name}
-          >
-            {item.name}
-          </a>
-        ))}
+        {footerLinks
+          .filter((item) => item.href)
+          .map((item, idx) => (
+            <a
+              key={idx}
+              href={item.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-blue-400"
+              aria-label={item.name}
+            >
+              {item.name}
+            </a>
+          ))}
         {footerLinks.find((item) => item.img) && (
           <img
             src={footerLinks.find((item) => item.img).img}
