@@ -69,6 +69,11 @@
       "title": "Scripts and Automation",
       "description": "Automation of tasks using custom scripts and helpful bots.",
       "icon": "⚙️"
+    },
+    {
+      "title": "Data Extraction & Scraping",
+      "description": "Automated collection of structured data from web sources, turning complex sites into clean, actionable formats (JSON, CSV, SQL).",
+      "icon": "📊"
     }
   ],
   "portfolio": [
