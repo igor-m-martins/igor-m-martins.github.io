@@ -287,12 +287,12 @@ export default function App() {
           </div>
 
           <a
-            href="https://www.fiverr.com/igor_m_martins"
+            href="https://www.upwork.com/freelancers/~0130da7eb010a1da56"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-8 bg-green-600 hover:bg-green-700 transition-colors text-white font-bold py-3 px-8 rounded-lg inline-block"
           >
-            Visit my Fiverr
+            Visit my UpWork
           </a>
         </section>
 
