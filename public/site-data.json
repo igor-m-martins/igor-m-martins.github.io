@@ -77,7 +77,12 @@
     }
   ],
   "portfolio": [
-   
+     {
+      "title": "Elitic AI",
+      "description": "An intelligent reading companion that turns any URL, file, or text into a personalized learning experience with contextual definitions and automated flashcards.",
+      "link": "https://eliteworldwideholding.github.io/elitic",
+      "image": "portfolio/elitic.png"
+    },
     {
       "title": "MiQueja",
       "description": "A startup connecting consumers and companies in Uruguay via public feedback to drive transparency and build trust.",
