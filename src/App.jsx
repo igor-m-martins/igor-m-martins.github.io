@@ -251,9 +251,10 @@ export default function App() {
               className="w-28 h-28 rounded-full object-cover border-4 border-gray-600 mx-auto mb-4"
             />
             <h2 className="mb-2 text-xl font-bold">{about.title}</h2>
-            <p className="leading-relaxed text-sm sm:text-base whitespace-pre-line">
-              {about.description}
-            </p>
+            <p 
+              className="leading-relaxed text-sm sm:text-base whitespace-pre-line"
+              dangerouslySetInnerHTML={{ __html: about.description }} 
+            />
             <div className="mt-4 flex flex-wrap justify-center gap-6 text-xs sm:text-sm">
               <div className="flex items-center space-x-2">
                 <span className="font-semibold">📞 Telefone:</span>
